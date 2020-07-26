@@ -1,0 +1,167 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+nav {
+    color:#FFF;
+    font-size:1rem;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    box-shadow: #f2f2f2 0px 1px;
+}
+
+.lee{
+    background-color: transparent;
+}
+
+.push{
+     margin-left: auto;
+}
+
+.navbar-ts {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.navbar-new-brand{
+       display: inline-block;
+       padding-bottom: .3125rem;
+       font-size: 1.25rem;
+       line-height: inherit;
+       white-space: nowrap;
+       text-decoration: none;
+       font-size: 2rem;
+       margin-right: auto;
+       background-color: #0cc7e3;
+       background-image: linear-gradient(45deg, #0cc7e3, #2655a5);
+       background-size: 100%;
+       background-clip: text;
+       -webkit-background-clip: text;
+       -moz-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+       -moz-text-fill-color: transparent;
+       padding: 10px 0px 10px 20px;
+   }
+
+.navbar-new-brand:hover{
+    text-decoration: none;
+    color: none;
+}
+
+li {
+    padding: 20px;
+}
+
+.nav-a {
+    color: #0cc7e3;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.nav-a:hover{
+    color: white;
+    background-color: #0cc7e3;
+    transition-duration: 0.5s;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #0cc7e3;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+        padding: 20px;
+    }
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+
+.box {
+    background-color: transparent;
+    margin: 10px;
+}
+
+
+.news-box:hover {
+    transform: scale(1.05);
+}
+
+.box > img {
+    width: 100%;
+}
+
+.news-div{
+    margin: 20px 20px;
+}
+
+.news{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -.5px;
+
+}
+
+.news:hover{
+    color: #0cc7e3;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+hr{
+    color: black;
+}
+
+
+a:not([href]) {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-color: #444;
+        cursor:pointer;
+        color:#FFF;
+        font-size:2em;
+        margin: 20px;
+}
+ 
